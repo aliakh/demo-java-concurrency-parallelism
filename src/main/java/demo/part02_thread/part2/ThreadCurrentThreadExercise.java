@@ -10,7 +10,7 @@ public class ThreadCurrentThreadExercise {
 
         System.out.println("id: " + thread.getId());
         System.out.println("name: " + thread.getName());
-        System.out.println("part3: " + thread.getState());
+        System.out.println("state: " + thread.getState());
         System.out.println("priority: " + thread.getPriority());
         System.out.println("is alive: " + thread.isAlive());
         System.out.println("is interrupted: " + thread.isInterrupted());

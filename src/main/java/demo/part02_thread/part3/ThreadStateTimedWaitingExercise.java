@@ -21,6 +21,6 @@ public class ThreadStateTimedWaitingExercise extends Thread {
         thread.start();
 
         Thread.sleep(1000);
-        logger.info("part3={}", thread.getState());
+        logger.info("state={}", thread.getState());
     }
 }

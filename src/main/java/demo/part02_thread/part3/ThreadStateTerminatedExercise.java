@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Shows Thread part3 TERMINATED.
+ * Shows Thread state TERMINATED.
  */
 public class ThreadStateTerminatedExercise extends Thread {
 
@@ -20,6 +20,6 @@ public class ThreadStateTerminatedExercise extends Thread {
         thread.start();
 
         thread.join();
-        logger.info("after join(): part3={}", thread.getState());
+        logger.info("after join(): state={}", thread.getState());
     }
 }

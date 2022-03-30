@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Shows Thread part3 NEW.
+ * Shows Thread state NEW.
  */
 public class ThreadStateNewExercise extends Thread {
 
@@ -18,7 +18,7 @@ public class ThreadStateNewExercise extends Thread {
     public static void main(String[] args) {
         Thread thread = new ThreadStateNewExercise();
 
-        logger.info("before start(): part3={}", thread.getState());
+        logger.info("before start(): state={}", thread.getState());
         thread.start();
     }
 }

@@ -34,7 +34,7 @@ public class ThreadStatesTimedWaitingBlockedExercise {
 
         Thread.sleep(1000);
 
-        logger.info("thread 1 part3={}", thread1.getState());
-        logger.info("thread 2 part3={}", thread2.getState());
+        logger.info("thread 1 state={}", thread1.getState());
+        logger.info("thread 2 state={}", thread2.getState());
     }
 }
